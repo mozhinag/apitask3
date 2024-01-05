@@ -1,0 +1,27 @@
+/* Add this style to your existing style.css file or in a <style> tag in your HTML */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #a09ae7;
+}
+
+
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid #a813c9;
+    text-align: left;
+}
+
+.table th {
+    background-color: #a09ae7;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #b7deea;
+}
+
+.table tbody tr:hover {
+    background-color: #0fc48e;
+}
